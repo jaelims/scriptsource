@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img src="1.jpg" alt="손" />
+    <button type="button" onclick="changeImage()">이미지 변경</button>
+    <script>
+      // 버튼 클릭시 이미지 변경
+      function changeImage() {
+        // 이미지 변경 src, alt 수정
+        let img = document.querySelector("img");
+        img.src = "2.jpg";
+        img.alt = "개";
+      }
+    </script>
+  </body>
+</html>
